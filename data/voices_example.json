@@ -1,0 +1,13 @@
+{
+  "cat": {
+    "ref_audio": "meow.wav", // A reference audio file which is stored in ./ref_audios
+    "prompt_text": "meow meow meeeeeeow", // The text for the reference audio
+    "prompt_lang": "en", // The language of the reference audio
+    "weights": { // Optional. default_weights in config.json will be used if omitted
+      "sovits_weight": "GPT_SoVITS/GPT_weights_v2/cat.pth",
+      "gpt_weight": "GPT_SoVITS/SoVITS_weights_v2/cat.ckpt"
+    }
+  },
+  "dog": {
+  }
+}
