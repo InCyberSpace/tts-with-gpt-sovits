@@ -1,4 +1,4 @@
-<h1>Discord TTS with GPT-SoVITS</h1>
+<h1>Discord TTS bot with GPT-SoVITS</h1>
 
 <h2>Installation</h2>
 <ol>
