@@ -1,46 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Discord TTS with GPT-SoVITS</title>
-<style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #24292f;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 24px;
-  }
-  h1 { font-size: 2em; border-bottom: 1px solid #d0d7de; padding-bottom: 10px; margin: 24px 0 16px; }
-  h2 { font-size: 1.5em; border-bottom: 1px solid #d0d7de; padding-bottom: 8px; margin: 24px 0 16px; }
-  ol { padding-left: 2em; margin: 0 0 16px; }
-  li { margin: 6px 0; }
-  code {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    font-size: 85%;
-    background: #f6f8fa;
-    border: 1px solid #d0d7de;
-    border-radius: 6px;
-    padding: 2px 6px;
-  }
-  pre {
-    background: #f6f8fa;
-    border: 1px solid #d0d7de;
-    border-radius: 6px;
-    padding: 16px;
-    overflow-x: auto;
-    margin: 10px 0;
-  }
-  pre code { background: none; border: none; padding: 0; font-size: 13px; }
-  a { color: #0969da; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-</style>
-</head>
-<body>
-
 <h1>Discord TTS with GPT-SoVITS</h1>
 
 <h2>Installation</h2>
@@ -70,6 +27,3 @@ pip install -r requirements.txt</code></pre>
     <pre><code>python main.py</code></pre>
   </li>
 </ol>
-
-</body>
-</html>
